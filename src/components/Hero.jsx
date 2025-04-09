@@ -33,13 +33,13 @@ const Hero = () => {
     return (
         <>
             <section className={`h-screen flex items-center justify-center flex-col ${inter.className}`}>
-                <div className="text-left">
+                <div className="text-left px-10 md:px-0">
                     <h5 ref={helloRef} className='text-lg md:text-xl font-medium'>Hello, my name is </h5>
                     <h1 ref={textRef} className="text-3xl md:text-5xl font-semibold">
                         Shamil Mohamed,
                     </h1>
                     <h2 ref={descRef} className="font-mono">
-                        a MERN-Stack Developer. Based on Kerala, India.
+                        a MERN-Stack Developer <br className='md:hidden' /> Based on Kerala, India.
                     </h2>
                 </div>
             </section>
