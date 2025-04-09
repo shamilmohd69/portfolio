@@ -24,7 +24,7 @@ export default function Portfolio() {
           <motion.h2 initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-4xl font-bold">
             Contact Me
           </motion.h2>
-          <p className="mt-4 text-lg text-gray-300">Let's work together! Reach me at <span className="text-blue-400">shamil@example.com</span></p>
+          <p className="mt-4 text-lg text-gray-300">Lets work together! Reach me at <span className="text-blue-400">shamil@example.com</span></p>
         </section>
       </div>
     </ClickSpark>
